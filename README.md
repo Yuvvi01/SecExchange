@@ -18,7 +18,7 @@ File Upload and Download: The script provides user-friendly features for uploadi
 
 To launch the server:
 
-```bash
+
 ./SecExchange server -a
 
 
