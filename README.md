@@ -18,9 +18,9 @@ SecExchange is a versatile script designed to streamline file exchanges between 
 
 To launch the server:
 
-```bash
+
 ./SecExchange server -a
-```
+
 
 To use the client:
 
@@ -32,10 +32,9 @@ To use the client:
 
 For Debian-based systems, make the script executable and move it to your PATH. Navigate to the script's directory and execute:
 
-```bash
 chmod +x SecExchange
 sudo mv SecExchange /usr/local/bin
-```
+
 
 This enables running SecExchange from any location.
 
@@ -45,21 +44,21 @@ Additionally, you can fetch a copy of the script from the SecExchange server usi
 
 List files on the server:
 
-```bash
+
 ./SecExchange client -s 192.168.1.3 -ls -a
-```
+
 
 Upload a file to the server:
 
-```bash
+
 ./SecExchange client -s 192.168.1.3 -u test2 -a
-```
+
 
 Download a file from the server:
 
-```bash
+
 ./SecExchange client -s 192.168.1.3 -d test1 -a
-```
+
 
 ## Important Note
 
