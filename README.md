@@ -24,7 +24,7 @@ To launch the server:
 
 To use the client:
 
-     ```bash
+```bash
 ./SecExchange client -s [server address] -p [port number] -ls [optional directory] -a
 
 
@@ -45,7 +45,7 @@ Additionally, you can fetch a copy of the script from the SecExchange server usi
 
 List files on the server:
 
-     ```bash
+ ```bash
 ./SecExchange client -s 192.168.1.3 -ls -a
 
 
@@ -57,7 +57,7 @@ Upload a file to the server:
 
 Download a file from the server:
 
-     ```bash
+```bash
 ./SecExchange client -s 192.168.1.3 -d test1 -a
 
 
