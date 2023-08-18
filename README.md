@@ -6,13 +6,13 @@ SecExchange is a versatile script designed to streamline file exchanges between 
 
 ## Features
 
-- **HTTP Client-Server Model:** SecExchange employs the HTTP protocol for seamless file transfers, ensuring compatibility across diverse network environments.
+**HTTP Client-Server Model:** SecExchange employs the HTTP protocol for seamless file transfers, ensuring compatibility across diverse network environments.
   
-- **Built-in Basic Authentication:** Enhancing security, SecExchange offers an optional password-based authentication mechanism. This safeguard ensures authorized users are the only ones allowed to upload or download files from the server. Please note that passwords are base64 encoded, and the communication does not employ encryption.
+**Built-in Basic Authentication:** Enhancing security, SecExchange offers an optional password-based authentication mechanism. This safeguard ensures authorized users are the only ones allowed to upload or download files from the server. Please note that passwords are base64 encoded, and the communication does not employ encryption.
 
-- **File Listing:** The script enables the listing of all files and directories on the host. This functionality simplifies the process of locating and downloading desired files.
+**File Listing:** The script enables the listing of all files and directories on the host. This functionality simplifies the process of locating and downloading desired files.
   
-- **File Upload and Download:** The script provides user-friendly features for uploading and downloading files between the client and server.
+**File Upload and Download:** The script provides user-friendly features for uploading and downloading files between the client and server.
 
 ## Usage
 
@@ -24,7 +24,7 @@ To launch the server:
 
 To use the client:
 
-```bash
+
 ./SecExchange client -s [server address] -p [port number] -ls [optional directory] -a
 ```
 
